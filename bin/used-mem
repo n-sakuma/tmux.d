@@ -25,7 +25,7 @@ fi
 #
 calculate_used_mem() {
 
-  if [ "$(uname) " = 'Darwin' ]; then
+  if [ "$(uname)" = 'Darwin' ]; then
     # vm_stat (for Mac)
     #  page size of 4096 bytes
     VM_STAT=$(vm_stat)
